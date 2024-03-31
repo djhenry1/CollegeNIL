@@ -1,0 +1,9 @@
+body{color: darkorange;background-color: black; font-size: large; font-family: 'Times New Roman', Times, serif;}
+h1{color: grey;border: 1px solid white;}
+h2{color: grey;border: 1px solid white; width: fit-content;font-weight: bolder;}
+a:link{color: darkorange;}
+
+body{color: darkblue;background-color: white;font-size: large; font-family: 'Times New Roman', Times, serif;}
+h1{color: black;border: 1px solid darkblue;}
+h2{color: black;border: 1px solid darkblue;}
+p{border: 1px solid black;}
