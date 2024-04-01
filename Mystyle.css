@@ -7,3 +7,6 @@ body{color: blue;background-color: black;font-size: large; font-family: 'Times N
 h1{color: white;border: 1px solid blue;width: fit-content; font-weight: bold;}
 h2{color: white;border: 1px solid blue;width: fit-content; font-weight: bold;}
 a:link{color: white;}
+
+body{color: darkred;font-size: larger;font-weight: bolder;width: fit-content;font-family: 'Times New Roman', Times, serif;}
+h1{border: 1px solid darkred;}
