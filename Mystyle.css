@@ -10,3 +10,7 @@ a:link{color: white;}
 
 body{color: darkred;font-size: larger;font-weight: bolder;width: fit-content;font-family: 'Times New Roman', Times, serif;}
 h1{border: 1px solid darkred;width: fit-content;}
+
+body{color: black;font-size: x-large; font-family: 'Times New Roman', Times, serif;}
+h1{color: grey;border: 1px solid darkorange;width: fit-content;}
+h2{color: grey;border: 1px solid darkorange;width: fit-content;font-weight: bolder;}
