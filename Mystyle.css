@@ -1,16 +1,16 @@
-body{color: darkorange;background-color: black; font-size: large; font-family: 'Times New Roman', Times, serif;}
-h1{color: grey;border: 1px solid white;}
-h2{color: grey;border: 1px solid white; width: fit-content;font-weight: bolder;}
-a:link{color: darkorange;}
-
-body{color: blue;background-color: black;font-size: large; font-family: 'Times New Roman', Times, serif;}
-h1{color: white;border: 1px solid blue;width: fit-content; font-weight: bold;}
-h2{color: white;border: 1px solid blue;width: fit-content; font-weight: bold;}
-a:link{color: white;}
-
-body{color: darkred;font-size: larger;font-weight: bolder;width: fit-content;font-family: 'Times New Roman', Times, serif;}
-h1{border: 1px solid darkred;width: fit-content;}
-
 body{color: black;font-size: x-large; font-family: 'Times New Roman', Times, serif;}
-h1{color: grey;border: 1px solid darkorange;width: fit-content;}
-h2{color: grey;border: 1px solid darkorange;width: fit-content;font-weight: bolder;}
+    h1{color: burlywood;border: 1px solid grey;width: fit-content;}
+    h2{color: burlywood;border: 1px solid grey;width: fit-content;font-weight: bolder;}
+
+    header { background-color: black; color: white; padding: 20px;}
+    
+    .logo {float: left}
+    
+    nav { float: right;}
+    
+    nav ul {list-style: none; margin: 0; padding: 0;}
+    
+    nav ul li {display: inline-block; margin-left: 20px;}
+    
+    nav ul li a {color: white; text-decoration: none;}
+    
