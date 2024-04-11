@@ -1,19 +1,5 @@
-var slideIndex = 0;
-showSlides();
+<script>
+    var footerButton = document.getElementById("footerButton");
 
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-
-// Function to change slides
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
+    footerButton.addEventListener("click", function(Home) {alert("You clicked the button in the footer!");})
+</script>
