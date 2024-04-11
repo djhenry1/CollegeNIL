@@ -33,20 +33,19 @@ body{color: black;font-size: x-large; font-family: 'Times New Roman', Times, ser
     
     .mySlides {display: none;text-align: center;}
     
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        padding: 16px;
-        margin-top: -22px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;}
-    .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;}
-    .prev:hover, .next:hover {
-        background-color: white;}
+    body {margin: 0;padding: 0;}
+    
+    .container {margin: 0 auto; 
+        max-width: 960px; 
+        padding: 0 20px;}
+    
+    @media (max-width: 768px) {.container {padding: 0 10px;}}
+
+    .element 
+    {width: 200px;height: 100px;background-color: white;}
+    
+    @media (orientation: landscape) 
+    {.element {width: 300px;height: 150px;background-color: red;}}
+    
+    @media (orientation: portrait) 
+    {.element {width: 200px;height: 100px;background-color: blue;}}
