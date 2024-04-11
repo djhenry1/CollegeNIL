@@ -1,15 +1,13 @@
-window.addEventListener("scroll", function() {
-    // Get the current scroll position
-    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-    
-    if (scrollPosition > 300) {
-        scrollToTop(this.top);
-    }
-});
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent default link behavior
+        const targetId = this.getAttribute('href').substring(1); // Get target section ID
+        const targetSection = document.getElementById(targetId); // Get target section element
+        if (targetSection) {
+            // Scroll to the target section
+            targetSection.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
     });
-}
+});
